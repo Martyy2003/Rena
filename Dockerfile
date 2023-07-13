@@ -1,3 +1,3 @@
-from idkknow/rename:letest
-copy ..
-CMD["bash","start.sh]
+FROM idkknow/rename:letest
+COPY ..
+CMD ["bash","start.sh]
